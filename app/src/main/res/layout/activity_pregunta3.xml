@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pregunta3">
+
+    <RadioGroup
+        android:layout_width="407dp"
+        android:layout_height="727dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Qué es una clase?" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es una plantilla para crear objetos" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es una plantilla para crear atributos" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es una plantilla para crear métodos" />
+
+        <Button
+            android:id="@+id/atras3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atras" />
+
+        <Button
+            android:id="@+id/siguiente3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siguiente" />
+
+        <Button
+            android:id="@+id/salir3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir" />
+
+        <TextView
+            android:id="@+id/respuesta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Respuesta:" />
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

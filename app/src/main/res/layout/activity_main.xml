@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/examen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Examen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <RadioGroup
+        android:layout_width="408dp"
+        android:layout_height="690dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="43dp">
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Qué es un objeto?" />
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Cuáles son las diferencias de atributo y método?" />
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Qué es una clase?" />
+
+        <Button
+            android:id="@+id/boton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es el proceso de definir los atributos y los métodos de una clase" />
+
+        <Button
+            android:id="@+id/boton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Las clases hijo mantienen características tales como atributos y métodos, otorgandole a las clases el derecho de padre" />
+
+        <Button
+            android:id="@+id/boton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protege la información de manipulaciones no autorizadas" />
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
